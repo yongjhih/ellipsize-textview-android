@@ -2,10 +2,10 @@
 <resources>
 
     <declare-styleable name="EllipsizeEndTextView">
-        <attr name="maxLines" format="integer" />
-        <attr name="textColor" format="color" />
-        <attr name="textSize" format="dimension" />
-        <attr name="lineSpacing" format="dimension" />
+        <attr name="elpz_maxLines" format="integer" />
+        <attr name="elpz_textColor" format="color" />
+        <attr name="elpz_textSize" format="dimension" />
+        <attr name="elpz_lineSpacing" format="dimension" />
     </declare-styleable>
 
 </resources>

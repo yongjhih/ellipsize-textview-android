@@ -69,12 +69,12 @@ public class EllipsizeEndTextView extends View {
         TypedArray typeArray = context.obtainStyledAttributes(attrs, R.styleable.EllipsizeEndTextView);
 
         mStrEllipsis = "...";
-        mMaxLineCount = typeArray.getInteger(R.styleable.EllipsizeEndTextView_maxLines, 5);
-        mLineSpacing = typeArray.getDimensionPixelSize(R.styleable.EllipsizeEndTextView_lineSpacing, 0);
+        mMaxLineCount = typeArray.getInteger(R.styleable.EllipsizeEndTextView_elpz_maxLines, 5);
+        mLineSpacing = typeArray.getDimensionPixelSize(R.styleable.EllipsizeEndTextView_elpz_lineSpacing, 0);
 
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        mPaint.setColor(typeArray.getColor(R.styleable.EllipsizeEndTextView_textColor, Color.BLACK));
-        mPaint.setTextSize(typeArray.getDimensionPixelSize(R.styleable.EllipsizeEndTextView_textSize, 0));
+        mPaint.setColor(typeArray.getColor(R.styleable.EllipsizeEndTextView_elpz_textColor, Color.BLACK));
+        mPaint.setTextSize(typeArray.getDimensionPixelSize(R.styleable.EllipsizeEndTextView_elpz_textSize, 0));
 
         typeArray.recycle();
     }
